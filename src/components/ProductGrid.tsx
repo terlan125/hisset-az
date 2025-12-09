@@ -103,7 +103,7 @@ export function ProductGrid({ navigate }: ProductGridProps) {
               <div className="p-4">
                 <p className="text-sm text-gray-500 mb-1">{product.material}</p>
                 <h3 className="mb-2 line-clamp-2 min-h-[3rem]">{product.name}</h3>
-                <p className="text-gray-900">₼{product.price}.00</p>
+                <p className="text-gray-900">${product.price}.00</p>
               </div>
             </div>
           ))}
