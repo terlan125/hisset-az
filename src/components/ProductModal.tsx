@@ -126,7 +126,7 @@ export function ProductModal({ product, onClose, whatsappNumber }: ProductModalP
                 <span className="text-3xl">₼{product.price}</span>
                 {product.original_price > product.price && (
                   <span className="text-xl text-gray-400 line-through">
-                    ${product.original_price}
+                    ₼{product.original_price}
                   </span>
                 )}
               </div>
