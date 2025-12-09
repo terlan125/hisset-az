@@ -123,7 +123,7 @@ export function ProductModal({ product, onClose, whatsappNumber }: ProductModalP
 
               {/* Price */}
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">${product.price}</span>
+                <span className="text-3xl">₼{product.price}</span>
                 {product.original_price > product.price && (
                   <span className="text-xl text-gray-400 line-through">
                     ${product.original_price}
