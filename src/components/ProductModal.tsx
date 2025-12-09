@@ -46,7 +46,7 @@ export function ProductModal({ product, onClose, whatsappNumber }: ProductModalP
   const mediaUrl = product.video_url || product.image_url;
 
   const handleWhatsAppOrder = () => {
-    const message = `Salam! ${productName} məhsuluna sifarış vermək istəyirəm.\nQiymət: ₼${product.price}\nSKU: ${product.sku}`;
+    const message = `Salam! ${productName} məhsuluna sifarış vermək istəyirəm.\nQiymət: $${product.price}\nSKU: ${product.sku}`;
     const link = generateWhatsAppLink(whatsappNumber, message);
     window.open(link, '_blank');
   };
