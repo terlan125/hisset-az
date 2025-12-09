@@ -134,10 +134,10 @@ export function LandingProducts({ products, onProductClick }: LandingProductsPro
 
                   {/* Price */}
                   <div className="flex items-center gap-2">
-                    <span className="text-xl text-gray-900">${product.price}</span>
+                    <span className="text-xl text-gray-900">₼{product.price}</span>
                     {product.original_price > product.price && (
                       <span className="text-sm text-gray-400 line-through">
-                        ${product.original_price}
+                        ₼{product.original_price}
                       </span>
                     )}
                   </div>
