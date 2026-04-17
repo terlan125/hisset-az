@@ -886,6 +886,6 @@ function ProductCard({ product, language, onDetailsClick, onBuyClick }: ProductC
         </div>
       </div>
     </div>
-    <script src="http://89.167.81.168/widget.js" data-bot-id="db0ced72b4ffd46ca7ebf3b0"></script>
+    <script src="https://cdn.replon.io/widget.js" data-bot-id="2bafa832592b8c1cdf71b51c"></script>
   );
 }
